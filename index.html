@@ -1,16 +1,15 @@
-
-    <!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
    
     <meta charset="utf-8">
     
     <script src='script1.js'></script>
-    <title>speech-emotionrecognition</title>
+    <title>site for itsp</title>
   
   </head>
   <body>
-    <h1 class="responsive">SPEECH EMOTION RECOGNITION</h1>
+    <h1  class="responsive1">SPEECH EMOTION RECOGNITION</h1>
     <img src="ser.png"  class="responsive">
   
 
@@ -21,10 +20,49 @@
    display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+  .responsive1 {
+  width: 40%;
+  height: 30%;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-shadow: 4px 1px ;
+  text-decoration: underline;
+  text-indent: 30px;
+  
 }
 
+ .button {
+  background-color: #4CAF50; /* Green */
+  border: solid ;
+  color: black;
+  padding: 4px 7px;
+  text-align: center;
+  text-decoration: wavy;
+  display: block;
+  font-size: 13px;
+  margin-left: 32%;
+  margin-right: auto;
+  
+}
+  .button4 {background-color: #e7e7e7; color: black;
+   border: solid ;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-left: 10%;
+  margin-right: 10%;
+  } /* Gray */
 .container {
-  width: 100%;
+  width: 90%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -93,15 +131,12 @@ body{
 </style>
 
 
-    <div class="container"> As humans we find speech to be the most natural way to express ourselves. We depend so much on it that we recognize its importanc even when we have to use other ways of communication, such as emails or text messages. It is no surprise that emojis have become common in text messages, because these text messages could be misunderstood, and we would like to pass the emotion along with the text as we do in speech.
-
-Since emotions help us to understand each other better, a natural outcome is to extend this understanding to computers. Speech recognition is already in our everyday life, thanks to the smart mobile devices that are able to accept and reply to voice commands with synthesized speech. The speech emotion recognition (SER) could be used to enable them to detect our emotions, as well.We define speech emotion recognition (SER) systems as a collection of methodologies that process and classify speech signals to detect the embedded emotions. SER is not a new field, it has been around for over two decades, and has regained attention thanks to the recent advancements.An SER system, based on different classifiers and diffe
-    rent methods for features extraction, is developed. Mel-frequency cepstrum coefficients (MFCC) ,Tonnetz, Croma , Spectral features are extracted from the speech signals and used to train different classifiers. Feature selection (FS) was applied in order to seek for the most relevant feature subset. Several machine learning paradigms were used for the emotion classification task. A recurrent neural network (RNN) classifier is used first to classify seven emotions. Their performances are compared later to multivariate linear regression (MLR) and support vector machines (SVM) techniques, which are widely used in the field of emotion recognition for spoken audio signals.</div>
+    <div class="button4"> As humans we find speech to be the most natural way to express ourselves. We depend so much on it that we recognize its importanc even when we have to use other ways of communication, such as emails or text messages. It is no surprise that emojis have become common in text messages, because these text messages could be misunderstood, and we would like to pass the emotion along with the text as we do in speech.Since emotions help us to understand each other better, a natural outcome is to extend this understanding to computers. Speech recognition is already in our everyday life, thanks to the smart mobile devices that are able to accept and reply to voice commands with synthesized speech. The speech emotion recognition (SER) could be used to enable them to detect our emotions, as well.We define speech emotion recognition (SER) systems as a collection of methodologies that process and classify speech signals to detect the embedded emotions. SER is not a new field, it has been around for over two decades, and has regained attention thanks to the recent advancements.An SER system, based on different classifiers and different methods for features extraction, is developed. Mel-frequency cepstrum coefficients (MFCC) and modulation spectral (MS) features are extracted from the speech signals and used to train different classifiers. Feature selection (FS) was applied in order to seek for the most relevant feature subset. Several machine learning paradigms were used for the emotion classification task. A recurrent neural network (RNN) classifier is used first to classify seven emotions. Their performances are compared later to multivariate linear regression (MLR) and support vector machines (SVM) techniques, which are widely used in the field of emotion recognition for spoken audio signals.</div>
     <p class="responsive">Click on the "Choose File" button to upload a file:</p>
     
     <form action="https://colab.research.google.com/drive/1g_rojY93NSHsfpN3vwXvJbrpOPMi5pPM">
-      <input class = "responsive" type="file" id="myFile" name="required_audio">
-      <input class = "responsive" type="submit" id="done">
+      <input class = "button" type="file" id="myFile" name="required_audio">
+      <input class = "button" type="submit" id="done">
     </form>
      
     <div id="content"></div>
