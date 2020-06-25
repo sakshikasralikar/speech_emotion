@@ -8,16 +8,22 @@
   margin-bottom: 10px;
 }
   .responsive1 {
-  width: 40%;
-  height: 30%;
-   display: block;
+  width: 50%;
+  height: 43%;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  text-shadow: 4px 1px ;
+  font-family: inherit;
   text-decoration: underline;
   text-indent: 30px;
+  border-width: 10px;
+  border-color: white;
+  border-spacing: 10px;
+  border-style: inherit;
+  background-color: black;
+  text-align: left;
   
 }
 
