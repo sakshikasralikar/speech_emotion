@@ -5,3 +5,6 @@
     var q = url.parse(adr, true);
     var a =q.y_predict
     document.getElementById("content").textContent = a; 
+      function myFunction() {
+  document.getElementById("here").innerHTML = "happy";
+}
